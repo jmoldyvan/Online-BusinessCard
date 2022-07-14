@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  height: 100vh;
+  background-color: #282D35;
+}
+.main{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: .5rem 2rem 5rem 2rem;
+}
+.main1{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-top: 1px;
+  padding: 1rem 0rem 5rem 2rem;
+}
+.InfoContainer{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-color: #282D35;
+}
+
+
+.content{
+  width: 50%;
+  border-radius: 5%;
+  box-shadow:  0px 0 20px rgb(0, 134, 134);
+  background-color: #0c0c0c;
+}
+
+.myName{
+  margin-bottom: 0;
+  line-height: 5rem;
+}
+
+.ProfilePic{
+  border-radius: 5%;
+}
+
+.role{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 1.7rem;
+line-height: 1.5rem;
+text-align: center;
+
+color: #F3BF99;
+}
+
+.buttonGroup{
+  margin-top: 2%;
+}
+
+.portfolio{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 150%;
+  text-align: center;
+  color: #F5F5F5;
+}
+
+.nameTitle{
+  display: flex;
+  flex-flow: column;
+  justify-content:center ;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 2.5rem;
+line-height: 3rem;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.aboutContainer{
+  display: flex;
+  flex-flow: column;
+  width: 70%;
+}
+
+.aboutStuff{
+  font-size: 1.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #21222A;
+  height: 90px;
+  padding: 30px 25px;
+}
+
+
+
+.nav--icon {
+  height: 45px;
+  margin-right: 7px;
+  box-shadow:  0px 0 20px rgb(0, 134, 134);
+}
+
+main {
+  /* padding: 5rem 2rem; */
+  color: white;
+}
+
+.main--title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+  text-align: left;
+}
+
+.main--facts {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main--facts > li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+@media screen and (max-width: 450px){
+
+  .content{
+    width: 100%;
+    border-radius: 0;
+  }
+  .ProfilePic{
+    box-shadow:  10px 10px 5px rgb(0, 134, 134);
+  }
+
+
+}
